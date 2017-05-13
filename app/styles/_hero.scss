@@ -1,0 +1,19 @@
+.hero {
+  padding: 2rem;
+  background-color: $c-hero;
+  text-align: center;
+
+  &__head {
+    margin-top: 0;
+    padding-top: 1rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 4rem;
+  }
+
+
+  &__subhead {
+    padding-bottom: 1rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+  }
+}
