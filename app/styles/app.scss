@@ -18,13 +18,16 @@ $c-hero: #c2e7da;
 @import 'resets';
 
 
-.projects {
-  padding: $m-gutter 0;
-  background-color: $c-section;
+.projects-grid {
+  padding: $m-gutter  0;
   font-family: 'Bree Serif', serif;
   text-align: center;
+
+  &__image {
+    max-width: 15rem;
+  }
 }
 
-.project-image {
-  max-width: 15rem;
+.tertiary {
+  background-color: $c-section;
 }
