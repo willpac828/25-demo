@@ -11,6 +11,7 @@ $m-gutter: 1rem;
 $c-section: #f7f7e4;
 $c-nav: #32ba9a;
 $c-hero: #c2e7da;
+$c-black: #000;
 
 @import 'box-sizing';
 @import 'nav';
@@ -18,13 +19,29 @@ $c-hero: #c2e7da;
 @import 'resets';
 
 
-.projects-grid {
+.projects {
   padding: $m-gutter  0;
   font-family: 'Bree Serif', serif;
   text-align: center;
 
   &__image {
-    max-width: 15rem;
+    max-width: 18rem;
+  }
+
+  &__header {
+    color: $c-black;
+    font-size: 3rem;
+  }
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &__item {
+    margin: 0 $m-gutter;
+    flex-basis: calc(100% / 3 - 2rem);
   }
 }
 
