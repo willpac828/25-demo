@@ -1,0 +1,14 @@
+.about {
+  margin: 0;
+  padding: $m-gutter * 2;
+
+  &__text {
+    font-family: $f-font;
+    font-size: 1rem;
+  }
+}
+
+.bright {
+  color: $c-nav;
+  font-size: 1.25rem;
+}

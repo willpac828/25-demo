@@ -1,0 +1,33 @@
+
+.projects {
+  padding: $m-gutter  0;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+
+  &__image {
+    max-width: 18rem;
+  }
+
+  &__header {
+    margin-top: 0;
+    color: $c-black;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 2rem);
+    margin: 0 $m-gutter;
+  }
+}
+
+.tertiary {
+  background-color: $c-section;
+}
