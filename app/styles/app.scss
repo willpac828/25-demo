@@ -28,27 +28,48 @@ $f-special: 'Pacifico', cursive;
   padding: $m-gutter * 2;
 }
 
+// .skill-category {
+//   margin: 0;
+//   color: $c-nav;
+//   font-family: $f-special;
+//   font-size: 2rem;
+//   text-decoration: underline;
+// }
+//
+// .skill-list {
+//   margin: ($m-gutter / 2) 0;
+//
+//   &__item {
+//     margin: ($m-gutter / 2) 0;
+//     color: $c-black;
+//     font-family: $f-font;
+//     font-size: 1.5rem;
+//   }
+// }
+//
+// .skill-sublist {
+//   &__item {
+//     font-family: $f-font;
+//     font-size: 1rem;
+//   }
+// }
+//
+
 .skill-category {
   margin: 0;
   color: $c-nav;
   font-family: $f-special;
   font-size: 2rem;
-  text-decoration: underline;
-}
-
-.skill-list {
-  margin: ($m-gutter / 2) 0;
 
   &__item {
     margin: ($m-gutter / 2) 0;
+    margin-right: $m-gutter / 2;
     color: $c-black;
     font-family: $f-font;
     font-size: 1.5rem;
   }
-}
 
-.skill-sublist {
-  &__item {
+  &__subitem {
     font-family: $f-font;
     font-size: 1rem;
   }
