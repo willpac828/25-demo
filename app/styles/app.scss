@@ -28,18 +28,28 @@ $f-special: 'Pacifico', cursive;
   padding: $m-gutter * 2;
 }
 
-.skill-name {
+.skill-category {
+  margin: 0;
   color: $c-nav;
   font-family: $f-special;
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 .skill-list {
-  display: flex;
-  flex-direction: row;
+  margin: ($m-gutter / 2) 0;
 
   &__item {
+    margin: ($m-gutter / 2) 0;
     color: $c-black;
     font-family: $f-font;
     font-size: 1.5rem;
+  }
+}
+
+.skill-sublist {
+  &__item {
+    font-family: $f-font;
+    font-size: 1rem;
   }
 }
