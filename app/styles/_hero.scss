@@ -1,10 +1,11 @@
 .hero {
-  padding: ($m-gutter * 4) ($m-gutter);
+  padding: ($m-gutter * 3) ($m-gutter);
   // background-color: $c-hero;
   text-align: center;
 
   &__head {
     margin-top: 0;
+    margin-bottom: 0.5rem;
     padding-top: 1rem;
     font-family: 'Bree Serif', serif;
     font-size: 3.5rem;
@@ -12,6 +13,7 @@
 
 
   &__subhead {
+    margin-top: 0;
     padding-bottom: 1rem;
     font-family: 'Bree Serif', serif;
     font-size: 2rem;
