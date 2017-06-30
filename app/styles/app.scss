@@ -8,10 +8,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $m-gutter: 1rem;
 
 // colors
-$c-section: #f7f7e4;
-$c-nav: #32ba9a;
-$c-hero: #daf2ea;
+$c-section: #f7f7f0;
+$c-nav: #64d7bc;
+$c-bright: #32ba9a;
+$c-main: #daf2ea;
 $c-black: #000;
+$c-white: #fff;
 
 // fonts
 $f-font: 'Bree Serif', serif;
@@ -28,9 +30,11 @@ $f-special: 'Pacifico', cursive;
   padding: $m-gutter * 2;
 }
 
+
+
 // .skill-category {
 //   margin: 0;
-//   color: $c-nav;
+//   color: $c-main;
 //   font-family: $f-special;
 //   font-size: 2rem;
 //   text-decoration: underline;
@@ -57,7 +61,7 @@ $f-special: 'Pacifico', cursive;
 
 .skill-category {
   margin: 0;
-  color: $c-nav;
+  color: $c-bright;
   font-family: $f-special;
   font-size: 2rem;
 

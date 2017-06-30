@@ -1,6 +1,6 @@
 .hero {
-  padding: ($m-gutter * 3) ($m-gutter);
-  // background-color: $c-hero;
+  padding: ($m-gutter * 7) ($m-gutter);
+  // background-color: $c-main;
   text-align: center;
 
   &__head {
@@ -21,5 +21,5 @@
 }
 
 .secondary {
-  background-color: $c-hero;
+  background-color: $c-main;
 }

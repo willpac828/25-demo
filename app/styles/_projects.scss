@@ -15,6 +15,10 @@
     font-size: 3rem;
     text-align: center;
   }
+
+  & h2 {
+    margin: $m-gutter / 2;
+  }
 }
 
 .projects-grid {
@@ -24,7 +28,9 @@
 
   &__item {
     flex-basis: calc(100% / 3 - 2rem);
-    margin: 0 $m-gutter;
+    margin: ($m-gutter / 2) $m-gutter;
+    background-color: $c-white;
+    box-shadow: 2px 2px 8px #ddd;
   }
 }
 

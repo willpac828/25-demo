@@ -1,7 +1,8 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 0 3rem;
+  padding: 0 14rem;
+  // I really want to get this where it's not guessing the margins ^^^
   background-color: $c-nav;
 
 
