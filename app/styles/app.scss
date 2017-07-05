@@ -26,8 +26,16 @@ $f-special: 'Pacifico', cursive;
 @import 'projects';
 @import 'about';
 
-.skills {
-  padding: $m-gutter * 2;
+.skills-grid {
+  display: flex;
+  padding: 0 $m-gutter * 2;
+
+  &__card {
+    margin: $m-gutter;
+    padding: $m-gutter;
+    background-color: $c-white;
+    box-shadow: 2px 2px 8px #ddd;
+  }
 }
 
 
