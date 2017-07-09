@@ -23,6 +23,10 @@
     font-family: 'Pacifico', cursive;
     font-size: 1.5rem;
     text-decoration: none;
+
+    :hover {
+      color: $c-white;
+    }
   }
 }
 

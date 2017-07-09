@@ -1,0 +1,31 @@
+.skills-grid {
+  display: flex;
+  padding: 0 $m-gutter * 2;
+
+  &__card {
+    margin: $m-gutter;
+    padding: $m-gutter;
+    background-color: $c-white;
+    box-shadow: 2px 2px 8px #ddd;
+  }
+}
+
+.skill-category {
+  margin: 0;
+  color: $c-bright;
+  font-family: $f-special;
+  font-size: 2rem;
+
+  &__item {
+    margin: ($m-gutter / 2) 0;
+    margin-right: $m-gutter / 2;
+    color: $c-black;
+    font-family: $f-font;
+    font-size: 1.5rem;
+  }
+
+  &__subitem {
+    font-family: $f-font;
+    font-size: 1rem;
+  }
+}
