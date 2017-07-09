@@ -1,6 +1,6 @@
 .skills-grid {
   display: flex;
-  padding: 0 $m-gutter * 2;
+  padding: 0 $m-gutter * 2 $m-gutter * 2;
 
   &__card {
     margin: $m-gutter;
