@@ -1,88 +1,88 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
+
+// measurements
+$m-gutter: 1rem;
+
+// colors
+$c-section: #f7f7f0;
+$c-nav: #64d7bc;
+$c-bright: #32ba9a;
+$c-main: #daf2ea;
+$c-black: #000;
+$c-white: #fff;
+
+// fonts
+$f-font: 'Bree Serif', serif;
+$f-special: 'Pacifico', cursive;
+
 @import 'box-sizing';
+@import 'nav';
+@import 'hero';
+@import 'resets';
+@import 'projects';
+@import 'about';
 
-.nav {
-  background-color: #32ba9a;
-  padding: 0 1rem;
+.skills-grid {
   display: flex;
-  justify-content: space-between;
+  padding: 0 $m-gutter * 2;
+
+  &__card {
+    margin: $m-gutter;
+    padding: $m-gutter;
+    background-color: $c-white;
+    box-shadow: 2px 2px 8px #ddd;
+  }
 }
 
 
-.nav__icon {
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  margin: 1rem 0;
-  font-family: 'Pacifico', cursive;
-}
 
-.nav__list {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem 0;
+// .skill-category {
+//   margin: 0;
+//   color: $c-main;
+//   font-family: $f-special;
+//   font-size: 2rem;
+//   text-decoration: underline;
+// }
+//
+// .skill-list {
+//   margin: ($m-gutter / 2) 0;
+//
+//   &__item {
+//     margin: ($m-gutter / 2) 0;
+//     color: $c-black;
+//     font-family: $f-font;
+//     font-size: 1.5rem;
+//   }
+// }
+//
+// .skill-sublist {
+//   &__item {
+//     font-family: $f-font;
+//     font-size: 1rem;
+//   }
+// }
+//
 
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.nav__item {
-  font-size: 1.5rem;
-  font-family: sans-serif;
-  text-decoration: none;
-  padding: 0 0.5rem;
-  font-family: 'Pacifico', cursive;
-}
-
-.hero {
-  background-color: #c2e7da;
-  text-align: center;
-  padding: 2rem;
-}
-
-.hero__head {
-  margin-top: 0;
-  padding-top: 1rem;
-  font-family: 'Bree Serif', serif;
-  font-size: 4rem;
-}
-
-.hero__subhead {
-  padding-bottom: 1rem;
-  font-family: 'Bree Serif', serif;
-  font-size: 2rem;
-}
-
-/*Projects*/
-
-.projects-view {
-  background-color: #f7f7e4;
-  text-align: center;
-  padding: 1rem 0;
-  font-family: 'Bree Serif', serif;
-}
-
-.project-image {
-  max-width: 15rem;
-}
-
-
-/*resets*/
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-body {
+.skill-category {
   margin: 0;
-}
+  color: $c-bright;
+  font-family: $f-special;
+  font-size: 2rem;
 
-img {
-  max-width: 100%;
+  &__item {
+    margin: ($m-gutter / 2) 0;
+    margin-right: $m-gutter / 2;
+    color: $c-black;
+    font-family: $f-font;
+    font-size: 1.5rem;
+  }
+
+  &__subitem {
+    font-family: $f-font;
+    font-size: 1rem;
+  }
 }

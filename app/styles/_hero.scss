@@ -1,0 +1,25 @@
+.hero {
+  padding: ($m-gutter * 7) ($m-gutter);
+  // background-color: $c-main;
+  text-align: center;
+
+  &__head {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.5rem;
+  }
+
+
+  &__subhead {
+    margin-top: 0;
+    padding-bottom: 1rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+  }
+}
+
+.secondary {
+  background-color: $c-main;
+}
