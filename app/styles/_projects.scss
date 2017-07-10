@@ -27,6 +27,11 @@
   flex-direction: row;
   flex-wrap: wrap;
 
+  a {
+    color: $c-black;
+    text-decoration: none;
+  }
+
   &__item {
     flex-basis: calc(100% / 3 - 2rem);
     margin: ($m-gutter / 2) $m-gutter;
@@ -34,6 +39,7 @@
     box-shadow: 2px 2px 8px #ddd;
   }
 }
+
 
 .tertiary {
   background-color: $c-section;
